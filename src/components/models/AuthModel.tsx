@@ -1,5 +1,6 @@
 import React from "react";
 import { IoClose } from "react-icons/io5";
+import Login from "./Login";
 
 export default function AuthModal() {
 	return (
@@ -20,6 +21,7 @@ export default function AuthModal() {
 								<IoClose className="h-5 w-5" />
 							</button>
 						</div>
+						<Login/>
 						{/* {authModal.type === "login" ? (
 							<Login />
 						) : authModal.type === "register" ? (
