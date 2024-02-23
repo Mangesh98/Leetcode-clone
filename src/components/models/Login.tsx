@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 export default function Login() {
-
 	const handleLogin = () => {};
 	const handleInputChange = () => {};
 	const handleClick = (type: "login" | "register" | "forgotPassword") => {
@@ -9,8 +8,8 @@ export default function Login() {
 	};
 	return (
 		<>
-			<form className="space-y-6 px-6 pb-4" >
-				<h3 className="text-xl font-medium text-white">Sign in to LeetClone</h3>
+			<form className="space-y-6 px-6 pb-4">
+				<h3 className="text-xl font-medium text-white">Sign in to LeetCode</h3>
 				<div>
 					<label
 						htmlFor="email"
@@ -54,12 +53,10 @@ export default function Login() {
                 text-sm px-5 py-2.5 text-center bg-brand-orange hover:bg-brand-orange-s
             "
 				>
-                    Log In
+					Log In
 					{/* {loading ? "Loading..." : "Log In"} */}
 				</button>
-				<button
-					className="flex w-full justify-end"
-				>
+				<button className="flex w-full justify-end">
 					<a
 						href="#"
 						className="text-sm block text-brand-orange hover:underline w-full text-right"
@@ -69,10 +66,7 @@ export default function Login() {
 				</button>
 				<div className="text-sm font-medium text-gray-300">
 					Not Registered?{" "}
-					<a
-						href="#"
-						className="text-blue-700 hover:underline"
-					>
+					<a href="#" className="text-blue-700 hover:underline">
 						Create account
 					</a>
 				</div>
